@@ -1,0 +1,110 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #24272e;
+}
+
+header {
+    background:rgba(61, 186, 235, 0.904);
+    padding: 20px;
+
+}
+header {
+    color: #25272e; 
+    text-align:center;
+    font-family: 'Secular One', sans-serif;
+    font-weight:bolder;
+    font-size: 50px;
+    text-decoration:underline salmon;
+}
+
+.score-board {
+    border: 3px solid white;
+    border-radius: 4px;
+    margin: 20px auto;
+    width: 200px;
+    color: white;
+    font-size: 46px;
+    text-align: center;
+    padding: 15px 20px;
+    font-family: 'secular one';
+    position: relative;
+}
+
+.badge{
+    background:salmon ;
+    color: white;
+    font-size: 14px; 
+    padding: 2px 10px;
+    font-family: 'Secular one';
+}
+
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+#computer-label {
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+.result {
+font-size: 40px;
+color:white;
+text-align: center;
+font-family: 'Secular one';
+font-weight: bold;
+
+}
+.choises {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.choise {
+    border: 4px solid white;
+    border-radius:100px ;
+    display: inline-block;
+    margin: 0 20px;
+    transition: all 0.3s ease;
+}
+
+
+.choise:hover {
+    cursor: pointer;
+    background:black ;
+    
+}
+
+#action-message{
+    text-align: center;
+    color: white;
+    font-family: 'Secular one';
+    font-weight: bold;
+    font-size:20px;
+    margin-top: 20px ;
+}
+
+
+
+.green-glow{
+    border: 4px solid greenyellow;
+    box-shadow: 0 0 10px green;
+}
+
+.red-glow{
+    border: 4px solid red;
+    box-shadow:0 0 10px darkred;
+}
+
+.gray-glow{
+    border: 4px solid grey;
+    box-shadow:0 0 10px darkgray ;
+}
