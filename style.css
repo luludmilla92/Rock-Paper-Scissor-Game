@@ -108,3 +108,9 @@ font-weight: bold;
     border: 4px solid grey;
     box-shadow:0 0 10px darkgray ;
 }
+
+@media screen and (min-width: 970px) {
+body{
+    background-color: red;
+}
+}
