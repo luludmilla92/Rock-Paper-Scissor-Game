@@ -3,4 +3,4 @@ Rock-paper-scissors is a hand game usually played by two people, where players s
 
 if you want to try it click on the link below :)
 
-https://github.com/luludmilla92/Rock-Paper-Scissor-Game.git
+https://luludmilla92.github.io/Rock-Paper-Scissor-Game/
